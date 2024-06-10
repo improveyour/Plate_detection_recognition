@@ -2,7 +2,7 @@
 
 声明：本模型均来自于大佬的 github 项目，具体项目请移步到 Reference ，如果侵权请联系本人删除，在这里特别感谢大佬的模型，大佬的 github 主页是[https://github.com/we0091234]
 
-本项目是我毕设的一部分，如果有需要配套的毕设论文欢迎大家有偿获取（1677830702），也欢迎大家去我的停车场管理系统项目点一个小小的start，谢谢各位！[https://github.com/improveyour/park-system]
+本项目是我毕设的一部分，如果有需要配套的毕设论文欢迎大家有偿获取（QQ：1677830702），也欢迎大家去我的停车场管理系统项目点一个小小的start，谢谢各位！[https://github.com/improveyour/park-system]
 
 
 
