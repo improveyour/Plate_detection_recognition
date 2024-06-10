@@ -74,10 +74,7 @@ python3 train.py --data data/widerface.yaml --cfg models/yolov5n-0.5.yaml --weig
 
 **2.数据集打上标签,生成train.txt和val.txt**
 
-![tmp2E](G:/crnn_plate_recognition-master/images/tmp2E.png)
-
-图片命名如上图：**车牌号_序号.jpg**
-然后执行如下命令，得到train.txt和val.txt
+图片命名为：**车牌号_序号.jpg**，然后执行如下命令，得到train.txt和val.txt
 
 ```
 python plateLabel.py --image_path your/train/img/path/ --label_file datasets/train.txt
