@@ -1,8 +1,8 @@
 ## **车牌检测和识别模型**
 
-**声明：**本模型均来自于大佬的 github 项目，具体项目请移步到 Reference ，如果侵权请联系本人删除，在这里特别感谢大佬的模型，大佬的 github 主页是[https://github.com/we0091234]
+声明：本模型均来自于大佬的 github 项目，具体项目请移步到 Reference ，如果侵权请联系本人删除，在这里特别感谢大佬的模型，大佬的 github 主页是[https://github.com/we0091234]
 
-本项目是我毕设的一部分，也欢迎大家去我的停车场管理系统项目点一个小小的start[https://github.com/improveyour/park-system]，谢谢各位！
+本项目是我毕设的一部分，也欢迎大家去我的停车场管理系统项目点一个小小的start,，谢谢各位！[https://github.com/improveyour/park-system]
 
 
 
@@ -74,7 +74,7 @@ python3 train.py --data data/widerface.yaml --cfg models/yolov5n-0.5.yaml --weig
 
 **2.数据集打上标签,生成train.txt和val.txt**
 
-![Image text](G:/crnn_plate_recognition-master/images/tmp2E.png)
+![tmp2E](G:/crnn_plate_recognition-master/images/tmp2E.png)
 
 图片命名如上图：**车牌号_序号.jpg**
 然后执行如下命令，得到train.txt和val.txt
