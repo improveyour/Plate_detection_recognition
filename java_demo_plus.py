@@ -3,7 +3,6 @@ import argparse
 import copy
 import os
 import time
-import sys
 
 import cv2
 import numpy as np
@@ -276,10 +275,10 @@ if __name__ == '__main__':
     # parser.add_argument('--rec_model', type=str, default='weights/plate_rec_color.pth', help='model.pt path(s)')#车牌识别+颜色识别模型
 
     parser.add_argument('--detect_model', nargs='+', type=str,
-                        default='E:\graduate\Chinese_license_plate_detection_recognition-main\weights\plate_detect.pt',
+                        default='weights\plate_detect.pt',
                         help='model.pt path(s)')  # 检测模型
     parser.add_argument('--rec_model', type=str,
-                        default='E:\graduate\Chinese_license_plate_detection_recognition-main\weights\plate_rec.pth',
+                        default='weights\plate_rec.pth',
                         help='model.pt path(s)')  # 车牌识别
     parser.add_argument('--is_color', type=bool, default=False, help='plate color')  # 是否识别颜色
     parser.add_argument('--image_path', type=str, default="imgs/test", help='source')  # 图片路径
